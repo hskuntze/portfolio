@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import MusikLogo from "../../assets/images/musik-logo.svg";
+import BulletJournalLogo from "../../assets/images/bullet-journal-logo.svg";
+import HKLearnLogo from "../../assets/images/hklearn-logo.svg";
 import './styles.css';
 
 const Home = () => {
@@ -44,24 +47,53 @@ const Home = () => {
       <div id="background-menu-img"></div>
       <div className="vl"></div>
       <div className="home-menu-info">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
-        reprehenderit obcaecati voluptates non ut qui officiis, ea quae ipsam
-        eum, sequi maxime consequuntur. Libero, officiis!
+        Bem-vindo(a) ao meu portfólio! Aqui se encontram alguns dos meus
+        projetos favoritos. Sempre em busca pelo moderno, inclusivo e elegante.{' '}
+        <div className="hr"></div> Welcome to my portfolium! Here you'll find
+        some of my favorite projects. Always looking for whats modern, inclusive
+        and elegant.
       </div>
       <div className="home-menu-info">
-        Vestibulum eget accumsan felis. Integer pulvinar lorem vel augue
-        posuere, in ullamcorper leo faucibus. Donec a ante in urna laoreet
-        dictum eget nec justo. Pellentesque.
+        <q>
+          ... sou bem confiante na minha capacidade de aprender e de se
+          interessar pelo o que há de novo no mercado. Ainda em busca de
+          oportunidades, tenho dedicado muito do meu tempo aos estudos de
+          especialização em ferramentas populares como o React e Vue.js para o
+          front-end, mas também me especializando nas ferramentas de back-end
+          como o ecossistema Spring.
+        </q>
+        <div className="hr"></div>
+        <q>
+          ... i'm pretty confident in my learning capacity and to be interested
+          in whats new on the market. Yet looking for opportunities i've been
+          dedicating most of my time to specialize in popular tools like React
+          and Vue.js on the front-end, as well as back-end tools like the Spring
+          ecosystem.
+        </q>
       </div>
       <div className="home-menu-info">
-        Phasellus non tempus sem. Mauris lacinia pulvinar hendrerit. Proin metus
-        leo, tempus in lectus a, aliquet bibendum arcu. Nunc tincidunt nec justo
-        eget pellentesque. Praesent.
+        <div className="fake-carousel">
+          <div className="left-item">
+            <span>Musik</span>
+            <img src={MusikLogo} alt="logotipo do aplicativo musik" />
+          </div>
+          <div className="center-item">
+            <span>The Bullet Journal</span>
+            <img src={BulletJournalLogo} alt="logotipo do aplicativo bullet journal" />
+          </div>
+          <div className="right-item">
+            <span>HKLearn</span>
+            <img src={HKLearnLogo} alt="logotipo do aplicativo hk learn" />
+          </div>
+        </div>
+        <span>Alguns dos projetos mais recentes</span>
+        <div className="hr"></div>
+        <span>Some of the most recent projects</span>
       </div>
       <div className="home-menu-info">
-        Etiam tellus ipsum, consectetur sed tincidunt nec, rutrum ac sapien.
-        Suspendisse urna nunc, feugiat vel ipsum at, aliquet porttitor ipsum.
-        Fusce accumsan eros sed blandit.
+        Confira todos os meus projetos no GitHub
+        <div className="hr"></div>
+        Check out all of my projects at GitHub
       </div>
     </main>
   );

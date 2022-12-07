@@ -1,0 +1,18 @@
+#navbar-custom {
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+  scroll-snap-align: center;
+}
+
+.navbar-header {
+  margin-left: clamp(5rem, 10vw, 50rem);
+}
+
+.navbar-header a, .navbar-header a:hover {
+  text-decoration: none;
+  color: #fff;
+}

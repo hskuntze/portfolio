@@ -4,7 +4,13 @@
   font-family: 'Kanit', sans-serif;
 }
 
-html, body {
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
   min-height: 100vh;
   height: 100%;
 }
@@ -35,4 +41,25 @@ ul,
 li {
   margin: 0;
   padding: 0;
+}
+
+.vl {
+  width: 1px;
+  height: 50vh;
+  background: radial-gradient(
+    circle,
+    rgba(204, 204, 204, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.hr {
+  width: 20vw;
+  height: 1px;
+  background: radial-gradient(
+    circle,
+    rgba(204, 204, 204, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  margin: 20px auto;
 }
