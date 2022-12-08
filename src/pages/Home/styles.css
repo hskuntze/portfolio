@@ -20,6 +20,15 @@
   background-position: 0% -100%;
 }
 
+#home-main[data-active-index='3']:hover #github-icon {
+  opacity: 1;
+}
+
+#github-icon {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
 #home-menu {
   margin-left: clamp(5rem, 10vw, 50rem);
   position: relative;

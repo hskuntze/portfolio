@@ -1,0 +1,83 @@
+#projects-main {
+  max-height: 100vh;
+}
+
+#projects-content {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    #2a248c,
+    #2a248c 0px,
+    #131140 71px
+  );
+  left: 0;
+  top: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.project-info {
+  background: #17154d;
+  background: linear-gradient(180deg, #2a248c 20%, #17154d 80%);
+  box-shadow: 0px 0px 3px 3px #131140;
+  border-radius: 10px;
+  max-width: 90vw;
+  max-height: 85vw;
+  width: 80vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-side-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 45vw;
+  margin: 0px 2.5vw;
+  text-align: center;
+}
+
+.right-side-info {
+  display: flex;
+  width: 45vw;
+  margin: 0px 2.5vw;
+}
+
+.up-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.up-left img {
+  margin-bottom: 15px;
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 3px 3px #131140;
+  transition: width 0.4s, height 0.4s, box-shadow 0.3s;
+}
+
+.up-left img:hover {
+  width: 170px;
+  height: 170px;
+  box-shadow: unset;
+}
+
+.up-left a,
+.up-left a:hover {
+  color: #fff;
+}
+
+.down-left {
+  margin: 15px auto;
+}
+
+.custom-carousel {
+  border-radius: 15px;
+}

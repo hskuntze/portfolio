@@ -18,6 +18,7 @@ const Home = () => {
         };
 
         item.onmouseout = () => {
+          menu.dataset.activeIndex = -1;
           infos[index].style.display = 'none';
         };
       }
@@ -41,7 +42,7 @@ const Home = () => {
           alt="Link para o GitHub"
           className="home-link"
         >
-          GitHub
+          GitHub <i className="bi bi-github" id="github-icon" />
         </a>
       </div>
       <div id="background-menu-img"></div>
@@ -86,9 +87,9 @@ const Home = () => {
             <img src={HKLearnLogo} alt="logotipo do aplicativo hk learn" />
           </div>
         </div>
-        <span>Alguns dos projetos mais recentes</span>
+        <span>Alguns dos meus principais projetos</span>
         <div className="hr"></div>
-        <span>Some of the most recent projects</span>
+        <span>Some of my main projects</span>
       </div>
       <div className="home-menu-info">
         Confira todos os meus projetos no GitHub

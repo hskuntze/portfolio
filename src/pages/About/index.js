@@ -17,9 +17,10 @@ const About = () => {
               sou natural de Brasília, Distrito Federal. Sou um grande admirador
               da tecnologia, música e filosofia. Me formei em Análise e
               Desenvolvimento de Sistemas pela Universidade do Distrito Federal
-              &#40;UDF&#41; em agosto 2022. No mesmo mês iniciei minha
+              &#40;UDF&#41; em agosto de 2022. No mesmo mês iniciei minha
               pós-graduação em Engenharia de Software com Java pelo institudo
-              INFNET.
+              INFNET. Pretendo continuar minha especialização no modelo
+              fullstack atuando com Java no back-end e Javascript no front-end.
               <div className="hr"></div>
               Hi! I'm Hassan Kuntze Rodrigues da Cunha, 23 years old, born in
               Brasília, Distrito Federal, Brazil. I'm a big fan of technology,
@@ -27,7 +28,9 @@ const About = () => {
               Development, an IT course here in Brazil, at the Universidade do
               Distrito Federal &#40;UDF&#41; in august of 2022. In the same
               month i started a graduate course in Software Engineering with
-              Java by the INFNET institute.
+              Java by the INFNET institute. I intend to persue my specialization
+              in the fullstack model employing Java in the back-end and
+              Javascript in the front-end.
             </span>
           </div>
         </section>

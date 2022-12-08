@@ -18,20 +18,6 @@
   position: absolute;
 }
 
-.section {
-  height: 100vh;
-  scroll-snap-align: start;
-  background: repeating-linear-gradient(
-    57.6deg,
-    #2a248c,
-    #2a248c 0px,
-    #131140 71px
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .div-img {
   border-radius: 16px;
   max-width: 400px;
