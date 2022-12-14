@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import MusikLogo from "../../assets/images/musik-logo.svg";
-import BulletJournalLogo from "../../assets/images/bullet-journal-logo.svg";
-import HKLearnLogo from "../../assets/images/hklearn-logo.svg";
+import MusikLogo from '../../assets/images/musik-logo.svg';
+import BulletJournalLogo from '../../assets/images/bullet-journal-logo.svg';
+import HKLearnLogo from '../../assets/images/hklearn-logo.svg';
 import './styles.css';
 
 const Home = () => {
@@ -80,7 +80,10 @@ const Home = () => {
           </div>
           <div className="center-item">
             <span>The Bullet Journal</span>
-            <img src={BulletJournalLogo} alt="logotipo do aplicativo bullet journal" />
+            <img
+              src={BulletJournalLogo}
+              alt="logotipo do aplicativo bullet journal"
+            />
           </div>
           <div className="right-item">
             <span>HKLearn</span>

@@ -9,10 +9,39 @@
 }
 
 .navbar-header {
-  margin-left: clamp(5rem, 10vw, 50rem);
+  width: 100vw;
+  height: 60px;
+  padding-left: clamp(5rem, 10vw, 50rem);
+  display: flex;
+  align-items: center;
 }
 
-.navbar-header a, .navbar-header a:hover {
+.navbar-header a {
   text-decoration: none;
   color: #fff;
+  transition: color 0.4s;
+}
+
+.navbar-header a:hover {
+  color: #aaa;
+}
+
+.navbar-header h4 {
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar-link {
+  margin: 0px 45px;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.navbar-header:hover .navbar-link {
+  opacity: 1;
 }

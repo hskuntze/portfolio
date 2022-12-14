@@ -37,6 +37,7 @@ const About = () => {
         <section className="section">
           <div className="second-section">
             <div className="div-img">
+              {/* MUDAR ESTA IMAGEM */}
               <img src={TestImg} alt="alt text" />
             </div>
             <span className="section-info">
@@ -64,8 +65,8 @@ const About = () => {
               to finish my internship because of contractual issues and moved on
               to studying back-end courses focused on Java and the Spring
               ecosystem. In september 2021 i began a internship at the
-              Ministério da Cidadania, an government organ of executive power,
-              and there i could improve my front-end skills by developing screen
+              Ministério da Cidadania, a government organ of executive power,
+              and there i was able to improve my front-end skills by developing screen
               prototypes using Bootstrap, HTML, CSS and Javascript. Meanwhile i
               continued studying back-end topics through a bootcamp ministred by
               the DevSuperior institute and focusing on the Spring ecosystem. As
@@ -94,7 +95,8 @@ const About = () => {
               Ainda em busca de oportunidades, tenho dedicado muito do meu tempo
               aos estudos de especialização em ferramentas populares como o
               React e Vue.js para o front-end, mas também me especializando nas
-              ferramentas de back-end como o ecossistema Spring.
+              ferramentas de back-end como o ecossistema Spring para aplicações
+              Java.
               <div className="hr"></div>
               Beyond my interest in the technology field, i recognize myself as
               a music enthusiast, even more when the subject is classic
@@ -106,7 +108,8 @@ const About = () => {
               capacity and to be interested in whats new on the market. Yet
               looking for opportunities i've been dedicating most of my time to
               specialize in popular tools like React and Vue.js on the
-              front-end, as well as back-end tools like the Spring ecosystem.
+              front-end, as well as back-end tools like the Spring ecosystem for
+              Java apps.
             </span>
           </div>
         </section>

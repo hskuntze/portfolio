@@ -5,11 +5,13 @@ import HKLearnLogo from '../../assets/images/hklearn-logo.svg';
 import HKCatalogLogo from '../../assets/images/hk-catalog-logo.svg';
 import KuntzeVendasLogo from '../../assets/images/kuntze-vendas-logo.svg';
 
+//Bullet Journal Images
 import bj1 from '../../assets/images/bj1.png';
 import bj2 from '../../assets/images/bj2.png';
 import bj3 from '../../assets/images/bj3.png';
 import bj4 from '../../assets/images/bj4.png';
 
+//HKLearn Images
 import hkl1 from '../../assets/images/hkl1.png';
 import hkl2 from '../../assets/images/hkl2.png';
 import hkl3 from '../../assets/images/hkl3.png';
@@ -17,9 +19,11 @@ import hkl4 from '../../assets/images/hkl4.png';
 import hkl5 from '../../assets/images/hkl5.png';
 import hkl6 from '../../assets/images/hkl6.png';
 
+//KuntzeVendas Images
 import kv1 from '../../assets/images/kv1.png';
 import kv2 from '../../assets/images/kv2.png';
 
+//HKCatalog Images
 import hkc1 from '../../assets/images/hkc1.png';
 import hkc2 from '../../assets/images/hkc2.png';
 import hkc3 from '../../assets/images/hkc3.png';
@@ -64,7 +68,7 @@ const Projects = () => {
                     type="button"
                     data-bs-target="#bulletCarousel"
                     data-bs-slide-to="0"
-                    class="active"
+                    className="active"
                     aria-current="true"
                     aria-label="Slide 1"
                   ></button>
@@ -91,55 +95,55 @@ const Projects = () => {
                   <div className="carousel-item active">
                     <img
                       src={bj1}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={bj2}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={bj3}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={bj4}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#bulletCarousel"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   type="button"
                   data-bs-target="#bulletCarousel"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -204,7 +208,7 @@ const Projects = () => {
                     type="button"
                     data-bs-target="#hklearnCarousel"
                     data-bs-slide-to="0"
-                    class="active"
+                    className="active"
                     aria-current="true"
                     aria-label="Slide 1"
                   ></button>
@@ -243,69 +247,69 @@ const Projects = () => {
                   <div className="carousel-item active">
                     <img
                       src={hkl1}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkl2}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkl3}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkl4}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkl5}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkl6}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#hklearnCarousel"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   type="button"
                   data-bs-target="#hklearnCarousel"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -347,7 +351,7 @@ const Projects = () => {
                     type="button"
                     data-bs-target="#kuntzeVendasCarousel"
                     data-bs-slide-to="0"
-                    class="active"
+                    className="active"
                     aria-current="true"
                     aria-label="Slide 1"
                   ></button>
@@ -362,41 +366,41 @@ const Projects = () => {
                   <div className="carousel-item active">
                     <img
                       src={kv1}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={kv2}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#kuntzeVendasCarousel"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   type="button"
                   data-bs-target="#kuntzeVendasCarousel"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
@@ -439,7 +443,7 @@ const Projects = () => {
                     type="button"
                     data-bs-target="#hkcatalogCarousel"
                     data-bs-slide-to="0"
-                    class="active"
+                    className="active"
                     aria-current="true"
                     aria-label="Slide 1"
                   ></button>
@@ -466,55 +470,55 @@ const Projects = () => {
                   <div className="carousel-item active">
                     <img
                       src={hkc1}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkc2}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkc3}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src={hkc4}
-                      class="d-block w-100"
+                      className="d-block w-100"
                       alt="imagem home bullet journal"
                     />
                   </div>
                 </div>
                 <button
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   type="button"
                   data-bs-target="#hkcatalogCarousel"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
                 <button
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   type="button"
                   data-bs-target="#hkcatalogCarousel"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
