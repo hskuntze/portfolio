@@ -48,13 +48,20 @@ const Projects = () => {
                 </a>
               </div>
               <div className="down-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis architecto, doloremque rem voluptates eos unde
-                molestiae.
+                O Bullet Journal é uma iniciativa pessoal que nasce com a
+                perspectiva da importância de um controle da rotina, bem como um
+                espaço pessoal. As funcionalidades abordam as principais
+                utilidades de um caderno diário: objetivos a serem cumpridos, os
+                "to-dos", um espaço para anotações, os "cards", bem como manter
+                anotado a sequência diária de atividades cumpridas, os
+                "streaks".
                 <div className="hr"></div>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Provident deleniti perspiciatis odit? Iusto aperiam aliquid
-                earum? Pariatur ex ab atque.
+                The Bullet Journal is a personal initiative which is born with
+                the notion of importance to maintain a routine, as well as a
+                personal space. It's functionalities covers the very much
+                essensce of a journal: daily maing goals to achieve, "to-dos", a
+                space to make annotations, the "cards", and the recording the
+                evolution of setted up tasks, "streaks".
               </div>
             </div>
             <div className="right-side-info">
@@ -161,12 +168,12 @@ const Projects = () => {
                 </a>
               </div>
               <div className="down-left">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-                ea sapiente vero!
+                O Musik é um aplicativo de transferência de músicas entre as
+                plataformas "Spotify" e "YouTube".
                 <div className="hr"></div>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Deleniti facilis vero est temporibus sequi nesciunt distinctio
-                dolor incidunt praesentium? Velit id reiciendis eligendi itaque.
+                Musik is an app to transfer musics from one platform to another.
+                It's possible to transfer musics from "Spotify" to "YouTube" and
+                vice versa.
               </div>
             </div>
             <div className="right-side-info">{/* Carousel */}</div>
@@ -188,13 +195,12 @@ const Projects = () => {
                 </a>
               </div>
               <div className="down-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-                deleniti alias tenetur molestias neque velit soluta mollitia
-                temporibus!
+                O HKLearn foi criado com o intuito de oferecer uma plataforma de
+                cursos para entidades ou empresas que não tenham sua própria
+                plataforma.
                 <div className="hr"></div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                itaque at amet sunt impedit necessitatibus non alias fugit enim?
-                A atque necessitatibus at nulla eum!
+                The HKLearn was created with the goal to offer a platform for
+                companys or institutions that already doesn't have one.
               </div>
             </div>
             <div className="right-side-info">
@@ -331,13 +337,12 @@ const Projects = () => {
                 </a>
               </div>
               <div className="down-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, molestias labore. Quas laborum voluptatem harum hic
-                nesciunt quaerat excepturi?
+                KuntzeVendas é um projeto de demonstração que exibe uma tela de
+                dashboard reunindo vários dados que dizem respeito a um grupo
+                hipotético de vendas.
                 <div className="hr"></div>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Incidunt dolor earum quae, voluptates reiciendis quaerat! Porro
-                ipsam necessitatibus vel quam at incidunt.
+                KuntzeVendas it's a demonstration project which displays a
+                dashboard that gathers data from a hypothetical sales group.
               </div>
             </div>
             <div className="right-side-info">
@@ -422,14 +427,10 @@ const Projects = () => {
                 </a>
               </div>
               <div className="down-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                expedita error dolore a, sapiente et eaque nostrum neque cum
-                aliquam consequuntur velit hic quis? Eligendi quasi voluptatum
-                velit!
+                HKCatalog é um aplicativo que demonstra um catálogo de produtos
+                online.
                 <div className="hr"></div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                molestias saepe quod eligendi velit commodi doloribus, sint
-                recusandae, facilis non eum id? Incidunt, optio autem?
+                HKCatalog is an app that exhibits a online product catalog.
               </div>
             </div>
             <div className="right-side-info">
