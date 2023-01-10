@@ -10,19 +10,23 @@ const Home = () => {
     const menu = document.getElementById('home-main');
     const infos = document.getElementsByClassName('home-menu-info');
 
-    Array.from(document.getElementsByClassName('home-link')).forEach(
-      (item, index) => {
-        item.onmouseover = () => {
-          menu.dataset.activeIndex = index;
-          infos[index].style.display = 'block';
-        };
+    var w = window.innerWidth;
 
-        item.onmouseout = () => {
-          menu.dataset.activeIndex = -1;
-          infos[index].style.display = 'none';
-        };
-      }
-    );
+    if (w >= 768) {
+      Array.from(document.getElementsByClassName('home-link')).forEach(
+        (item, index) => {
+          item.onmouseover = () => {
+            menu.dataset.activeIndex = index;
+            infos[index].style.display = 'block';
+          };
+
+          item.onmouseout = () => {
+            menu.dataset.activeIndex = -1;
+            infos[index].style.display = 'none';
+          };
+        }
+      );
+    }
   }, []);
 
   return (

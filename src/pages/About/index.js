@@ -1,7 +1,23 @@
 import './styles.css';
-import TestImg from '../../assets/images/galaxy.png';
-import FaceImg from '../../assets/images/Screenshot_83.png';
-import GuitarImg from '../../assets/images/Screenshot_84.png';
+
+import spring from '../../assets/images/spring-seeklogo.com.svg';
+import java from '../../assets/images/java-seeklogo.com.svg';
+import js from '../../assets/images/javascript-seeklogo.com.svg';
+import html from '../../assets/images/html5-with-wordmark-color.svg';
+import css from '../../assets/images/css3-seeklogo.com.svg';
+import docker from '../../assets/images/docker-seeklogo.com.svg';
+import kuber from '../../assets/images/kubernetes-seeklogo.com.svg';
+import typescript from '../../assets/images/typescript-seeklogo.com.svg';
+import aws from '../../assets/images/aws-seeklogo.com.svg';
+import awsrds from '../../assets/images/aws-rds-relational-database-service-seeklogo.com.svg';
+import awsec2 from '../../assets/images/aws-ec2-elastic-compute-cloud-seeklogo.com.svg';
+import awss3 from '../../assets/images/aws-s3-simple-storage-service-seeklogo.com.svg';
+import git from '../../assets/images/git-seeklogo.com.svg';
+import bootstrap from '../../assets/images/bootstrap-5-seeklogo.com.svg';
+import mysql from '../../assets/images/mysql-seeklogo.com.svg';
+import react from '../../assets/images/react-seeklogo.com.svg';
+import vue from '../../assets/images/vuejs-seeklogo.com.svg';
+import php from '../../assets/images/php-seeklogo.com.svg';
 
 const About = () => {
   return (
@@ -9,9 +25,40 @@ const About = () => {
       <div id="about-content">
         <section className="section">
           <div className="first-section">
-            <div className="div-img">
-              <img src={FaceImg} alt="alt text" />
-            </div>
+            <span className="section-info">
+              <div className="tech-logo-container">
+                <img src={spring} alt="spring logo" className="tech-logo" />
+                <img src={java} alt="java logo" className="tech-logo" />
+                <img src={js} alt="javascript logo" className="tech-logo" />
+                <img
+                  src={typescript}
+                  alt="typescript logo"
+                  className="tech-logo"
+                />
+                <img src={html} alt="html logo" className="tech-logo" />
+                <img src={css} alt="css logo" className="tech-logo" />
+                <img src={git} alt="git logo" className="tech-logo" />
+                <img src={docker} alt="docker logo" className="tech-logo" />
+                <img src={kuber} alt="kubernetes logo" className="tech-logo" />
+                <img src={aws} alt="aws logo" className="tech-logo" />
+                <img src={awsec2} alt="aws ec2 logo" className="tech-logo" />
+                <img src={awsrds} alt="aws rds logo" className="tech-logo" />
+                <img src={awss3} alt="aws s3 logo" className="tech-logo" />
+                <img
+                  src={bootstrap}
+                  alt="bootstrap logo"
+                  className="tech-logo"
+                />
+                <img src={react} alt="react.js logo" className="tech-logo" />
+                <img src={vue} alt="vue.js logo" className="tech-logo" />
+                <img src={mysql} alt="mysql logo" className="tech-logo" />
+                <img src={php} alt="php logo" className="tech-logo" />
+              </div>
+            </span>
+          </div>
+        </section>
+        <section className="section">
+          <div className="second-section">
             <span className="section-info">
               Olá! Me chamo Hassan Kuntze Rodrigues da Cunha, tenho 23 anos, e
               sou natural de Brasília, Distrito Federal. Sou um grande admirador
@@ -21,26 +68,6 @@ const About = () => {
               pós-graduação em Engenharia de Software com Java pelo institudo
               INFNET. Pretendo continuar minha especialização no modelo
               fullstack atuando com Java no back-end e Javascript no front-end.
-              <div className="hr"></div>
-              Hi! I'm Hassan Kuntze Rodrigues da Cunha, 23 years old, born in
-              Brasília, Distrito Federal, Brazil. I'm a big fan of technology,
-              music and philosophy. I graduated in Analysis and Systems
-              Development, an IT course here in Brazil, at the Universidade do
-              Distrito Federal &#40;UDF&#41; in august of 2022. In the same
-              month i started a graduate course in Software Engineering with
-              Java by the INFNET institute. I intend to persue my specialization
-              in the fullstack model employing Java in the back-end and
-              Javascript in the front-end.
-            </span>
-          </div>
-        </section>
-        <section className="section">
-          <div className="second-section">
-            <div className="div-img">
-              {/* MUDAR ESTA IMAGEM */}
-              <img src={TestImg} alt="alt text" />
-            </div>
-            <span className="section-info">
               Minha primeira experiência profissional na área de TI teve inicio
               na ANATEL, na área de Big Data com a ferramenta QlikSense. Após
               cerca de 4 meses me desliguei do estágio por problemas contratuais
@@ -59,31 +86,37 @@ const About = () => {
               ReactJS e o Vue.JS para a criação das aplicações, pela
               Universidade de Brasília.
               <div className="hr"></div>
-              My first professional experience in the IT field started at
-              ANATEL, one of many federal public administration institutes, in
-              the Big Data area using QlikSense. About four months later i had
-              to finish my internship because of contractual issues and moved on
-              to studying back-end courses focused on Java and the Spring
-              ecosystem. In september 2021 i began a internship at the
-              Ministério da Cidadania, a government organ of executive power,
-              and there i was able to improve my front-end skills by developing screen
-              prototypes using Bootstrap, HTML, CSS and Javascript. Meanwhile i
-              continued studying back-end topics through a bootcamp ministred by
-              the DevSuperior institute and focusing on the Spring ecosystem. As
-              soon as i finished this bootcamp i began another one but
-              emphasizing the front-end with the ReactJS framework. After 8
-              months of internship, in april 2022, i was indicated to a research
-              and development scholarship meeting demands by the Ministério da
-              Cidadania through the Universidade de Brasília &#40;UnB&#41;, as a
-              front-end developer using ReactJS and Vue.JS.
+              Hi! I'm Hassan Kuntze Rodrigues da Cunha, 23 years old, born in
+              Brasília, Distrito Federal, Brazil. I'm a big fan of technology,
+              music and philosophy. I graduated in Analysis and Systems
+              Development, an IT course here in Brazil, at the Universidade do
+              Distrito Federal &#40;UDF&#41; in august of 2022. In the same
+              month i started a graduate course in Software Engineering with
+              Java by the INFNET institute. I intend to persue my specialization
+              in the fullstack model employing Java in the back-end and
+              Javascript in the front-end. My first professional experience in
+              the IT field started at ANATEL, one of many federal public
+              administration institutes, in the Big Data area using QlikSense.
+              About four months later i had to finish my internship because of
+              contractual issues and moved on to studying back-end courses
+              focused on Java and the Spring ecosystem. In september 2021 i
+              began a internship at the Ministério da Cidadania, a government
+              organ of executive power, and there i was able to improve my
+              front-end skills by developing screen prototypes using Bootstrap,
+              HTML, CSS and Javascript. Meanwhile i continued studying back-end
+              topics through a bootcamp ministred by the DevSuperior institute
+              and focusing on the Spring ecosystem. As soon as i finished this
+              bootcamp i began another one but emphasizing the front-end with
+              the ReactJS framework. After 8 months of internship, in april
+              2022, i was indicated to a research and development scholarship
+              meeting demands by the Ministério da Cidadania through the
+              Universidade de Brasília &#40;UnB&#41;, as a front-end developer
+              using ReactJS and Vue.JS.
             </span>
           </div>
         </section>
         <section className="section">
           <div className="third-section">
-            <div className="div-img">
-              <img src={GuitarImg} alt="alt text" />
-            </div>
             <span className="section-info">
               Além do meu interesse na área da tecnologia, me reconheço como um
               apaixonado na música, principalmente se tratando de composições

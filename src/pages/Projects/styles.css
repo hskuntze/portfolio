@@ -19,16 +19,16 @@
 }
 
 .project-info {
+  margin-top: 15px;
   background: #17154d;
   background: linear-gradient(180deg, #2a248c 20%, #17154d 80%);
   box-shadow: 0px 0px 3px 3px #131140;
   border-radius: 10px;
-  max-width: 90vw;
-  max-height: 85vw;
-  width: 80vw;
-  height: 75vh;
+  width: 90vw;
+  height: 82vh;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -36,21 +36,24 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 45vw;
-  margin: 0px 2.5vw;
+  width: 85vw;
+  height: 48vh;
+  margin: 1vh auto;
   text-align: center;
 }
 
 .right-side-info {
   display: flex;
-  width: 45vw;
-  margin: 0px 2.5vw;
+  width: 85vw;
+  height: 18vh;
+  margin: auto;
 }
 
 .up {
   display: flex;
   align-items: center;
-  margin: 20px auto;
+  flex-direction: column;
+  margin: 3vh auto 0 auto;
 }
 
 .up-left {
@@ -79,25 +82,82 @@
 }
 
 .up-right {
-  height: 165px;
-  font-size: 13px;
+  height: 20vh;
+  width: 70vw;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: start;
-  margin-left: 30px;
+  text-align: center;
+  margin-left: 0;
+  margin-top: 15px;
 }
 
 .down-left {
   margin: 15px auto;
+  display: none;
 }
 
 .status-alert {
-  width: 300px;
-  height: 60px;
-  margin: 0px auto 20px auto;
+  width: 80vw;
+  min-height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  margin: 0px auto;
+}
+
+@media (min-width: 1200px) {
+  .project-info {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: unset;
+  }
+
+  .status-alert {
+    width: 300px;
+  }
+
+  .left-side-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45vw;
+    margin: 0px 2.5vw;
+    text-align: center;
+  }
+  
+  .right-side-info {
+    margin: 0px 2.5vw;
+    height: unset;
+  }
+
+  .down-left {
+    display: block;
+  }
+
+  .up {
+    flex-direction: row;
+    margin: 20px auto;
+    width: 40vw;
+    justify-content: center;
+  }
+
+  .up-right {
+    height: 165px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    margin-left: 30px;
+    width: unset;
+  }
 }

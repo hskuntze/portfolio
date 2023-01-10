@@ -18,41 +18,16 @@
   position: absolute;
 }
 
-.div-img {
-  border-radius: 16px;
-  max-width: 400px;
-  max-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.div-img img {
-  height: 90%;
-  width: 90%;
-  border-radius: 15px;
-  mask-image: linear-gradient(black, transparent);
-  mask-repeat: no-repeat;
-  opacity: 0.7;
-  transition: opacity 0.4s, height 0.4s, width 0.4s;
-}
-
-.div-img img:hover {
-  opacity: 1;
-  height: 80%;
-  width: 100%;
-  mask-image: unset;
-}
-
 .section-info {
-  width: 50vw;
+  width: 80vw;
   text-align: justify;
   padding: 10px 0;
-  margin: auto 20px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-indent: 3ch;
+  text-align-last: center;
   letter-spacing: -0.02rem;
 }
 
@@ -63,14 +38,11 @@
   background: linear-gradient(180deg, #2a248c 20%, #17154d 80%);
   box-shadow: 0px 0px 3px 3px #131140;
   border-radius: 10px;
-  max-width: 90vw;
-  max-height: 85vw;
-  width: 80vw;
-  height: 75vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  max-width: 95vw;
+  width: 90vw;
+  height: 80vh;
   overflow-y: auto;
+  display: flex;
 }
 
 .first-section::-webkit-scrollbar,
@@ -86,4 +58,45 @@
 
 .second-section {
   flex-direction: row-reverse;
+}
+
+.tech-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 30px;
+}
+
+.tech-logo-header {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4em;
+  margin-bottom: 5vh;
+}
+
+.tech-logo {
+  width: 80px;
+  height: 80px;
+}
+
+@media (min-width: 768px) {
+  .first-section,
+  .second-section,
+  .third-section {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .section-info {
+    width: 67vw;
+  }
+
+  .tech-logo-container {
+    gap: 60px;
+  }
 }

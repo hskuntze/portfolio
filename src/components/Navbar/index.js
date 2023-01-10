@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav id="navbar-custom">
       <div className="navbar-header">
-        <NavLink to="/">
+        <NavLink to="/" className={"navbar-header-link"}>
           <h4>Hassan Kuntze</h4>
         </NavLink>
         <ul className="navbar-links">

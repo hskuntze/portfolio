@@ -175,8 +175,8 @@ const Projects = () => {
           <div className="project-info">
             <div className="left-side-info">
               <div className="status-alert bg-warning text-bg-warning">
-                Em desenvolvimento -
-                <span className="fst-italic">&nbsp;In development</span>
+                Em progresso -
+                <span className="fst-italic">&nbsp;Work in progress</span>
               </div>
               <div className="up">
                 <div className="up-left">
