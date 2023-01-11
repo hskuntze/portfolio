@@ -6,12 +6,6 @@
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    #2a248c,
-    #2a248c 0px,
-    #131140 71px
-  );
   left: 0;
   top: 0;
   z-index: 1;
@@ -34,10 +28,6 @@
 .first-section,
 .second-section,
 .third-section {
-  background: #17154d;
-  background: linear-gradient(180deg, #2a248c 20%, #17154d 80%);
-  box-shadow: 0px 0px 3px 3px #131140;
-  border-radius: 10px;
   max-width: 95vw;
   width: 90vw;
   height: 80vh;
@@ -51,27 +41,13 @@
   display: none;
 }
 
-.first-section,
-.third-section {
-  flex-direction: row;
-}
-
-.second-section {
-  flex-direction: row-reverse;
-}
-
 .tech-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   gap: 30px;
-}
-
-.tech-logo-header {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 4em;
-  margin-bottom: 5vh;
+  padding: 5px 0 10px 0;
 }
 
 .tech-logo {
@@ -79,12 +55,36 @@
   height: 80px;
 }
 
+.setas {
+  position: absolute;
+  font-size: 40px;
+  color: #ddd;
+  transition: font-size 0.15s, color 0.15s;
+  top: 88vh;
+  animation: wiggle 0.5s infinite alternate;
+}
+
+.setas:hover {
+  font-size: 50px;
+  color: #bbb;
+}
+
+.other-setas {
+  font-size: 40px;
+  color: #ddd;
+}
+
+@keyframes wiggle {
+  100% {
+    top: 90vh;
+  }
+}
+
 @media (min-width: 768px) {
   .first-section,
   .second-section,
   .third-section {
     max-width: 90vw;
-    max-height: 85vh;
     width: 80vw;
     height: 75vh;
     display: flex;

@@ -71,12 +71,14 @@ li {
   height: 100vh;
   scroll-snap-align: center;
   background: repeating-linear-gradient(
-    57.6deg,
-    #2a248c,
-    #2a248c 0px,
-    #131140 71px
+    /* 57.6deg, */
+    45deg,
+    rgba(42, 36, 140, 0.25),
+    rgba(42, 36, 140, 0.25) 0px,
+    rgba(19, 17, 64, 0.25) 71px
   );
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }

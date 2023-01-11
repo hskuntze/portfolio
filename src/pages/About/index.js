@@ -1,5 +1,6 @@
 import './styles.css';
 
+//ícones
 import spring from '../../assets/images/spring-seeklogo.com.svg';
 import java from '../../assets/images/java-seeklogo.com.svg';
 import js from '../../assets/images/javascript-seeklogo.com.svg';
@@ -56,8 +57,10 @@ const About = () => {
               </div>
             </span>
           </div>
+          <i className="bi bi-caret-down-fill setas"/>
         </section>
         <section className="section">
+          <i className="bi bi-caret-up-fill other-setas"/>
           <div className="second-section">
             <span className="section-info">
               Olá! Me chamo Hassan Kuntze Rodrigues da Cunha, tenho 23 anos, e
@@ -114,8 +117,10 @@ const About = () => {
               using ReactJS and Vue.JS.
             </span>
           </div>
+          <i className="bi bi-caret-down-fill other-setas"/>
         </section>
         <section className="section">
+          <i className="bi bi-caret-up-fill other-setas"/>
           <div className="third-section">
             <span className="section-info">
               Além do meu interesse na área da tecnologia, me reconheço como um

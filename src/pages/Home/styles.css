@@ -1,5 +1,5 @@
 #home-main {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 75px);
   display: flex;
   align-items: center;
 }
@@ -63,12 +63,14 @@
 #background-menu-img {
   height: 100vh;
   width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
 
   background: repeating-linear-gradient(
     45deg,
-    #2a248c,
-    #2a248c 0px,
-    #131140 71px
+    rgba(42, 36, 140),
+    rgba(41, 36, 140) 0px,
+    rgba(19, 17, 64) 71px
   );
   background-position: 0% 0%;
   background-size: 100px 100px;
@@ -138,6 +140,7 @@
 
   .home-link {
     font-size: clamp(2rem, 2vw, 2rem);
+    width: 20vw;
   }
 
   .home-menu-info {

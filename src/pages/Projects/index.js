@@ -168,10 +168,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <i className="bi bi-caret-down-fill setas"/>
         </section>
 
         {/* Musik */}
         <section className="section">
+          <i className="bi bi-caret-up-fill other-setas"/>
           <div className="project-info">
             <div className="left-side-info">
               <div className="status-alert bg-warning text-bg-warning">
@@ -281,10 +283,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <i className="bi bi-caret-down-fill other-setas"/>
         </section>
 
         {/* HKLearn */}
         <section className="section">
+          <i className="bi bi-caret-up-fill other-setas"/>
           <div className="project-info">
             <div className="left-side-info">
               <div className="status-alert bg-success">
@@ -435,10 +439,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <i className="bi bi-caret-down-fill other-setas"/>
         </section>
 
         {/* KuntzeVendas */}
         <section className="section">
+          <i className="bi bi-caret-up-fill other-setas"/>
           <div className="project-info">
             <div className="left-side-info">
               <div className="status-alert bg-success">
@@ -538,10 +544,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <i className="bi bi-caret-down-fill other-setas"/>
         </section>
 
         {/* HK Catalog */}
         <section className="section">
+          <i className="bi bi-caret-up-fill other-setas"/>
           <div className="project-info">
             <div className="left-side-info">
               <div className="status-alert bg-success">
